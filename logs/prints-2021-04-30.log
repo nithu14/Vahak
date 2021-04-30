@@ -1,0 +1,72 @@
+18:18:19.072 [main] INFO  utilities.Base - user logged in
+18:18:21.847 [main] INFO  utilities.Base - Home page displayedIMDb Sign-In
+18:18:22.007 [main] ERROR utilities.Base - Test failedSign_in
+18:18:38.487 [main] INFO  utilities.Base - Test Started check_movie
+18:18:47.710 [main] INFO  utilities.Base - Page Opened
+18:19:00.734 [main] INFO  utilities.Base - Clicked on menu item
+18:19:01.942 [main] INFO  utilities.Base - Sorted by release date
+18:19:02.137 [main] INFO  utilities.Base - Last movie is The Kid
+18:19:08.544 [main] INFO  utilities.Base - Test Passed check_movie
+18:19:26.109 [main] INFO  utilities.Base - Test Started create_account
+18:19:31.936 [main] INFO  utilities.Base - Page Opened
+18:19:41.334 [main] INFO  utilities.Base - Create account
+18:19:53.024 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:19:53.031 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:19:53.033 [main] INFO  utilities.Base - Test Passed create_account
+18:19:53.035 [main] INFO  utilities.Base - Test Started create_account
+18:19:59.598 [main] INFO  utilities.Base - Page Opened
+18:20:03.216 [main] INFO  utilities.Base - Create account
+18:20:12.206 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:20:12.215 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:20:12.350 [main] INFO  utilities.Base - Test Passed create_account
+18:20:12.354 [main] INFO  utilities.Base - Test Started create_account
+18:20:21.337 [main] INFO  utilities.Base - Page Opened
+18:20:26.338 [main] INFO  utilities.Base - Create account
+18:20:35.303 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:20:35.308 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:20:35.309 [main] INFO  utilities.Base - Test Passed create_account
+18:20:35.310 [main] INFO  utilities.Base - Test Started create_account
+18:20:39.620 [main] INFO  utilities.Base - Page Opened
+18:20:44.380 [main] INFO  utilities.Base - Create account
+18:20:46.142 [main] ERROR utilities.Base - invalid value entered in create account
+18:20:46.151 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:20:46.156 [main] ERROR utilities.Base - Test failedcreate_account
+18:20:47.167 [main] INFO  utilities.Base - Test Started create_account
+18:20:52.810 [main] INFO  utilities.Base - Page Opened
+18:20:56.363 [main] INFO  utilities.Base - Create account
+18:21:05.461 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:21:05.472 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:21:05.474 [main] INFO  utilities.Base - Test Passed create_account
+18:21:05.476 [main] INFO  utilities.Base - Test Started create_account
+18:21:11.168 [main] INFO  utilities.Base - Page Opened
+18:21:13.764 [main] INFO  utilities.Base - Create account
+18:21:15.372 [main] ERROR utilities.Base - invalid value entered in create account
+18:21:15.381 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:21:15.383 [main] ERROR utilities.Base - Test failedcreate_account
+18:21:15.613 [main] INFO  utilities.Base - Test Started create_account
+18:21:20.966 [main] INFO  utilities.Base - Page Opened
+18:21:23.428 [main] INFO  utilities.Base - Create account
+18:21:26.220 [main] ERROR utilities.Base - invalid value entered in create account
+18:21:26.225 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:21:26.226 [main] ERROR utilities.Base - Test failedcreate_account
+18:21:26.378 [main] INFO  utilities.Base - Test Started create_account
+18:21:32.428 [main] INFO  utilities.Base - Page Opened
+18:21:36.552 [main] INFO  utilities.Base - Create account
+18:21:45.673 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:21:45.680 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:21:45.682 [main] INFO  utilities.Base - Test Passed create_account
+18:21:45.684 [main] INFO  utilities.Base - Test Started create_account
+18:21:50.277 [main] INFO  utilities.Base - Page Opened
+18:21:55.132 [main] INFO  utilities.Base - Create account
+18:22:04.452 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:22:04.463 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:22:04.464 [main] INFO  utilities.Base - Test Passed create_account
+18:22:04.466 [main] INFO  utilities.Base - Test Started create_account
+18:22:10.246 [main] INFO  utilities.Base - Page Opened
+18:22:13.657 [main] INFO  utilities.Base - Create account
+18:22:22.538 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:22:22.545 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:22:22.549 [main] INFO  utilities.Base - Test Passed create_account
+18:22:22.550 [main] INFO  utilities.Base - Test Started create_account
+18:22:27.613 [main] INFO  utilities.Base - Page Opened
+18:22:31.385 [main] INFO  utilities.Base - Create account

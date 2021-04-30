@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Sign_in(failed)">
+    <classes>
+      <class name="Scripts.Sign_Validation">
+        <methods>
+          <include name="Save_close"/>
+          <include name="Sign_in"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Scripts.Sign_Validation -->
+    </classes>
+  </test> <!-- Sign_in(failed) -->
+  <test thread-count="5" name="Create_account(failed)">
+    <classes>
+      <class name="Scripts.New_Account">
+        <methods>
+          <include name="Save_close"/>
+          <include name="initialize"/>
+          <include name="create_account" invocation-numbers="3 5 6 11 12 13"/>
+        </methods>
+      </class> <!-- Scripts.New_Account -->
+    </classes>
+  </test> <!-- Create_account(failed) -->
+</suite> <!-- Failed suite [Suite] -->

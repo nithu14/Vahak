@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>  
+<listener class-name="utilities.Listners"/>  
+</listeners> 
+  <test name="Sign_in">
+    <classes>
+    <class name="Scripts.Sign_Validation"/>
+     </classes>
+  </test> <!-- Test -->
+  <test name="Get_movie">
+    <classes>
+      <class name="Scripts.Get_Movie"/>
+       </classes>
+  </test> <!-- Test -->
+  <test name="Create_account">
+    <classes>
+      <class name="Scripts.New_Account"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

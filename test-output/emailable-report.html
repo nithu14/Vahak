@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Sign_in</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">138,155</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Get_movie</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">35,976</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Create_account</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">269,523</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">9</th><th class="num">0</th><th class="num">0</th><th class="num attn">7</th><th class="num">443,654</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sign_in &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Scripts.Sign_Validation</td><td><a href="#m0">Sign_in</a></td><td rowspan="1">1619786856538</td><td rowspan="1">45314</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Get_movie &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Scripts.Get_Movie</td><td><a href="#m1">check_movie</a></td><td rowspan="1">1619786918484</td><td rowspan="1">30059</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Create_account &#8212; failed</th></tr><tr class="failedeven"><td rowspan="6">Scripts.New_Account</td><td><a href="#m2">create_account</a></td><td rowspan="6">1619787035310</td><td rowspan="6">10841</td></tr><tr class="failedeven"><td><a href="#m3">create_account</a></td></tr><tr class="failedeven"><td><a href="#m4">create_account</a></td></tr><tr class="failedeven"><td><a href="#m5">create_account</a></td></tr><tr class="failedeven"><td><a href="#m6">create_account</a></td></tr><tr class="failedeven"><td><a href="#m7">create_account</a></td></tr><tr><th colspan="4">Create_account &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">Scripts.New_Account</td><td><a href="#m8">create_account</a></td><td rowspan="8">1619787012353</td><td rowspan="8">22955</td></tr><tr class="passedeven"><td><a href="#m9">create_account</a></td></tr><tr class="passedeven"><td><a href="#m10">create_account</a></td></tr><tr class="passedeven"><td><a href="#m11">create_account</a></td></tr><tr class="passedeven"><td><a href="#m12">create_account</a></td></tr><tr class="passedeven"><td><a href="#m13">create_account</a></td></tr><tr class="passedeven"><td><a href="#m14">create_account</a></td></tr><tr class="passedeven"><td><a href="#m15">create_account</a></td></tr></tbody>
+</table>
+<h2>Sign_in</h2><h3 id="m0">Scripts.Sign_Validation#Sign_in</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp; TV Shows] but found [IMDb Sign-In]
+	at Scripts.Sign_Validation.Sign_in(Sign_Validation.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Get_movie</h2><h3 id="m1">Scripts.Get_Movie#check_movie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create_account</h2><h3 id="m2">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=werrtrtrr@gmail.com, Results=Enter your name, Re_enter_PWD=abcdefg@1234, Test_Case=No_Name, SI_No=4, Name=, Password=abcdefg@1234}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=, Results=Enter your email, Re_enter_PWD=abcdefg@1234, Test_Case=No_Email, SI_No=7, Name=Nithanth, Password=abcdefg@1234}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=fsaertyiu9867@gmail.com, Results=Passwords must match, Re_enter_PWD=Nsdg@1234, Test_Case=Invalid_Repwd, SI_No=13, Name=Nithanth, Password=abcdefg@1234}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=rtetre7687@gmail.com, Results=Passwords must match, Re_enter_PWD=, Test_Case=No_Repwd, SI_No=14, Name=Nithanth, Password=abcdefg@1234}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=hjgytyu59@gmail.com, Results=Passwords must match, Re_enter_PWD=abcdefg@1234, Test_Case=no_pwd, SI_No=12, Name=Nithanth, Password=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=dfrrgr#$%gmail.com, Results=Enter a valid email address, Re_enter_PWD=abcdefg@1234, Test_Case=InValid_Email, SI_No=6, Name=Nithanth, Password=abcdefg@1234}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [IMDb Registration] but found [Authentication required]
+	at Scripts.New_Account.create_account(New_Account.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=tyuyuiuiu@gmail.com, Results=Pass, Re_enter_PWD=abcdefg@1234, Test_Case=Name_20Char, SI_No=3, Name=Nithanthraiwertyunftyjnhyu, Password=abcdefg@1234}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=fdgfdrt546@gmail.com, Results=Pass, Re_enter_PWD=n@123, Test_Case=PWD_Less10, SI_No=11, Name=Nithanth, Password=n@123}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=dfgvcvggr@gmail.com, Results=Pass, Re_enter_PWD=abcdefg@1234, Test_Case=Name_Less10, SI_No=5, Name=N, Password=abcdefg@1234}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=uyuytyut59@gmail.com, Results=Pass, Re_enter_PWD=1.3213232E7, Test_Case=Pwd_onlyno, SI_No=10, Name=Nithanth, Password=1.3213232E7}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=lkjiuyiu12@gmail.com, Results=Pass, Re_enter_PWD=QWEWRERE@#$%WERWEREWRWERCSDF, Test_Case=PWD_20Char, SI_No=8, Name=Nithanth, Password=QWEWRERE@#$%WERWEREWRWERCSDF}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=bvnvghyf56@gmail.com, Results=Pass, Re_enter_PWD=RWERWRWRER, Test_Case=Pwd_onlychac, SI_No=9, Name=Nithanth, Password=RWERWRWRER}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=adefrgt@abc.com, Results=Pass, Re_enter_PWD=abcdefg@1234, Test_Case=Valid_Values, SI_No=1, Name=desdfr, Password=abcdefg@1234}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Scripts.New_Account#create_account</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=erttyuyu@gmail.com, Results=Pass, Re_enter_PWD=abcdefg@1234, Test_Case=Special_Name, SI_No=2, Name=Nith@anth, Password=abcdefg@1234}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

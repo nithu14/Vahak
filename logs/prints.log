@@ -1,0 +1,21 @@
+18:22:40.724 [main] INFO  utilities.Base - Test passed, moved to next validation screen
+18:22:40.770 [main] INFO  utilities.Base - Page tilte is Authentication required
+18:22:40.772 [main] INFO  utilities.Base - Test Passed create_account
+18:22:40.773 [main] INFO  utilities.Base - Test Started create_account
+18:22:46.194 [main] INFO  utilities.Base - Page Opened
+18:22:51.711 [main] INFO  utilities.Base - Create account
+18:22:53.143 [main] ERROR utilities.Base - invalid value entered in create account
+18:22:53.147 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:22:53.151 [main] ERROR utilities.Base - Test failedcreate_account
+18:22:53.401 [main] INFO  utilities.Base - Test Started create_account
+18:22:57.680 [main] INFO  utilities.Base - Page Opened
+18:23:01.784 [main] INFO  utilities.Base - Create account
+18:23:04.520 [main] ERROR utilities.Base - invalid value entered in create account
+18:23:04.529 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:23:04.531 [main] ERROR utilities.Base - Test failedcreate_account
+18:23:04.733 [main] INFO  utilities.Base - Test Started create_account
+18:23:12.296 [main] INFO  utilities.Base - Page Opened
+18:23:17.449 [main] INFO  utilities.Base - Create account
+18:23:19.200 [main] ERROR utilities.Base - invalid value entered in create account
+18:23:19.205 [main] INFO  utilities.Base - Page tilte is IMDb Registration
+18:23:19.206 [main] ERROR utilities.Base - Test failedcreate_account
